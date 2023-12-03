@@ -1,0 +1,43 @@
+body{
+    background: rgb(60, 144, 177);
+}
+
+.container{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    text-align: center;
+}
+
+.quotes{
+    border: 1px solid black;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px ;
+    color: gray;
+    background-color: #ffffff;
+    border: 10px solid black;
+}
+
+.quotes p{
+    font-size: 1.5rem;
+}
+
+.quotes h3{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p{
+        font-size: 1rem;
+    }
+    
+    .quotes h3{
+        font-size: 1rem;
+    } 
+}
